@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой список задач</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Мой список задач</h1>
+        <p class="subtitle">Планируй день и отмечай выполненное</p>
+
+        <form id="task-form">
+            <input
+                type="text"
+                id="task-input"
+                placeholder="Введите новую задачу..."
+                required
+            >
+            <button type="submit">Добавить</button>
+        </form>
+
+        <ul id="task-list"></ul>
+        <p id="empty-message">Пока задач нет. Добавь первую!</p>
+        <p id="task-counter">Всего задач: 0</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
